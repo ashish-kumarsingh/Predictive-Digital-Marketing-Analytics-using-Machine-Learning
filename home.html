@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Profit Prediction</title>
+
+    <style>
+      body{
+        background-image: url("sw.jpg");
+        background-size: contain;
+     }
+     </style>
+  </head>
+
+  <body>
+    <h1><div class="header">
+  <img src="C:/Users/Bibu/Documents/flight/templates/logo.png" alt="logo" />
+
+</div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center"><font size="4" color="white" >Your feedback is extremely valuable to us!</font></div></h2>
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-6 offset-3'>
+          <form method="POST" action="/predict">
+            <div class="card">
+              <div class="card-body">
+                <div class="form-group">
+              <label for="age"><p class="font-weight-bold">Age</p></label>
+              <input type="text" name="age" id="age"class="form-control">
+              <small id="NYHelp" class="form-text text-muted"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="income"><p class="font-weight-bold">Income</p></label>
+                <input type="text" name="income" id="income"class="form-control">
+                <small id="CaliforniaHelp" class="form-text text-muted"></small>
+                </div>
+
+                <div class="form-group">
+                  <label><p class="font-weight-bold">Gender</p></label>&nbsp;&nbsp;&nbsp;
+                  <label for="Male">Male</label><input id="Male" type="radio" name="Gender" value="0">
+                  <label for="Female">Female</label><input id="Female" type="radio" name="Gender" value="1">
+                   <small id="FloridaHelp" class="form-text text-muted"></small>
+                  </div>
+
+
+
+                        <div class="form-group">
+                        <label for="Half_Full"><p class="font-weight-bold">Half_Full</p></label>
+                        <input type="text" name="Half_Full" id="Half_Full"class="form-control">
+                        <small id="Half_FullHelp" class="form-text text-muted"></small>
+                        </div>
+
+                        <div class="form-group">
+                        <label for="MaritalStatus"><p class="font-weight-bold">MaritalStatus</p></label>
+                        <input type="text" name="MaritalStatus" id="MaritalStatus"class="form-control">
+                        <small id="MaritalStatushelp" class="form-text text-muted"></small>
+                        </div>
+
+                        <div class="form-group">
+                        <label for="HaveKids"><p class="font-weight-bold">HaveKids</p></label>
+                        <input type="text" name="HaveKids" id="HaveKids"class="form-control">
+                        <small id="HaveKidsHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                        <label for="HealthRate"><p class="font-weight-bold">HealthRate</p></label>
+                        <input type="text" name="HealthRate" id="HealthRate"class="form-control">
+                        <small id="HealthRateHelp" class="form-text text-muted"></small>
+                        </div>
+
+                        <div class="form-group">
+                        <label for="isVeg"><p class="font-weight-bold">isVeg</p></label>
+                        <input type="text" name="isVeg" id="isVeg"class="form-control">
+                        <small id="isVegHelp" class="form-text text-muted"></small>
+                        </div>
+
+                        <div class="form-group">
+                        <label for="IsStudent"><p class="font-weight-bold">IsStudent</p></label>
+                        <input type="text" name="IsStudent" id="IsStudent"class="form-control">
+                        <small id="IsStudentHelp" class="form-text text-muted"></small>
+                        </div>
+
+                         <div class="form-group">
+                        <label for="email"><p class="font-weight-bold">Email</p></label>
+                        <input type="text" name="email" id="email"class="form-control">
+                        <small id="emailid" class="form-text text-muted"></small>
+                        </div>
+              </div>
+              <div class="card-footer">
+                <input class='btn btn-primary' type='submit' value='Submit'>
+              </div>
+            </div>
+
+
+
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
